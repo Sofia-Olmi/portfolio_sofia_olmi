@@ -429,3 +429,18 @@ p.titolo a.nav-link {
   }
 
 }
+
+/* header */
+@media (max-width: 768px) {
+    .logo {
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin-left: 4px;
+    }
+
+.btn-menu {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 4px;
+}
+}
