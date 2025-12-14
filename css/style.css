@@ -433,12 +433,16 @@ p.titolo a.nav-link {
 /* header */
 @media (max-width: 768px) {
     .logo {
+        width: 7vw;
+        height: 7vw;
         margin-top: 5px;
         margin-bottom: 5px;
         margin-left: 4px;
     }
 
 .btn-menu {
+    width: 7vw;
+    height: 7vw;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-right: -5px;
