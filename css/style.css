@@ -420,26 +420,9 @@ p.titolo a.nav-link {
     filter: blur(0);
 }
 
-/* bottone menu
-@media (max-width: 576px) {
-    .btn-menu {
-        width: 24px !important;  era 28px
-        height: 24px !important;
-        margin: 0.5vw;
-    }
-
+/* Media query per dispositivi mobili */
+@media (max-width: 768px) {
+  html, body {
+    font-size: 12px;
+  }
 }
-
-@media (min-width: 577px) and (max-width: 991px) {
-    .btn-menu {
-        width: 26px !important;  era 30px
-        height: 26px !important;
-        margin: 0.5vw;
-    }
-    
-    .logo {
-        width: 36px;
-        height: 36px;
-        margin: 0.5vw;
-    }
-} */
