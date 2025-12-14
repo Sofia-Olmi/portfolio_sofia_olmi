@@ -350,7 +350,7 @@ La certezza del trasporto viene così messa in dubbio, ma nonostante questo il m
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // ===== MENU MOBILE =====
-  // Seleziona gli elementi
+ // Seleziona gli elementi
   const btnMenu = document.querySelector('.btn-menu');
   const btnClose = document.querySelector('.btn-close');
   const mobileNavWrapper = document.querySelector('.mobile-nav-wrapper');
@@ -366,18 +366,17 @@ document.addEventListener('DOMContentLoaded', function() {
     mobileNavWrapper.classList.remove('show');
   });
 
-  // Chiude il menu mobile cliccando sullo sfondo (ma non sui link)
-  mobileNavWrapper.addEventListener('click', function(e) {
-    // Verifica se il click non è su un link
-    let isLink = false;
-    navLinks.forEach(function(link) {
-      if (link.contains(e.target)) {
-        isLink = true;
-      }
+  // Chiude il menu mobile quando si clicca su un link
+  navLinks.forEach(function(link) {
+    link.addEventListener('click', function() {
+      mobileNavWrapper.classList.remove('show');
     });
+  });
 
-    // Se non è un link, chiudi il menu
-    if (!isLink) {
+  // Chiude il menu mobile cliccando sullo sfondo
+  mobileNavWrapper.addEventListener('click', function(e) {
+    // Verifica se il click è direttamente sul wrapper (sfondo)
+    if (e.target === mobileNavWrapper) {
       mobileNavWrapper.classList.remove('show');
     }
   });
