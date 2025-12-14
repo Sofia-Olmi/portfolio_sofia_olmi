@@ -31,7 +31,6 @@ a.nav-link{
     color: rgba(0, 0, 0, 0.8);
     text-decoration: none;
     font-size: 1.3vw;
-    /* font-size: 18px; */
     margin: 8px;
     padding: 8px;
 }
@@ -127,7 +126,8 @@ html {
      padding-top: 1.5vw;
 }
 .titolo{
-    font: bold Reddit Sans Condensed, Helvetica, sans-serif;
+    font: Reddit Sans Condensed, Helvetica, sans-serif;
+    font-weight: bold;
     font-size: 3vw;
     line-height: 3vw;
     margin: 0;
@@ -408,8 +408,15 @@ p.titolo a.nav-link {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .titolo {
     font-size: 15px !important; 
+    font-weight: bold !important;
+  }
+}
+
+@media (min-width: 768px) {
+  a.nav-link {
+    font-size: 13px !important; 
   }
 }
