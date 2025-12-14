@@ -372,7 +372,8 @@ p.titolo a.nav-link {
   }
   
   .slide-content p {
-    font-size: 11px;
+    font-size: 9px;
+    line-height: 9px;
   }
   
   /* Allinea video e slider mobile */
