@@ -127,7 +127,8 @@ html {
      padding-top: 1.5vw;
 }
 .titolo{
-    font: bold 3vw Reddit Sans Condensed, Helvetica, sans-serif;
+    font: bold Reddit Sans Condensed, Helvetica, sans-serif;
+    font-size: 3vw;
     line-height: 3vw;
     margin: 0;
 }
@@ -352,26 +353,6 @@ p.titolo a.nav-link {
 
 
 /* Responsive */
-/* @media (max-width: 576px) {
-    .btn-menu {
-        width: 28px !important;
-        height: 28px !important;
-    }
-}
-
-@media (min-width: 577px) and (max-width: 991px) {
-    .btn-menu {
-        width: 30px !important;
-        height: 30px !important;
-    }
-}
-
-@media (min-width: 992px) {
-    .btn-menu {
-        width: 36px !important;
-        height: 36px !important;
-    }
-} */
 
 @media (max-width: 768px) {
   .slide-image {
@@ -420,9 +401,15 @@ p.titolo a.nav-link {
     filter: blur(0);
 }
 
-/* Media query per dispositivi mobili */
+/* caratteri */
 @media (max-width: 768px) {
   html, body {
     font-size: 11px !important; 
+  }
+}
+
+@media (min-width: 769px) {
+  .titolo {
+    font-size: 15px !important; 
   }
 }
