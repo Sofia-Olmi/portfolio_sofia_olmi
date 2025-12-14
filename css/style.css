@@ -9,8 +9,7 @@
 
 html, body{
      font: normal 16px Mulish, Helvetica, sans-serif;
-     /* font-size: 1.2vw; */
-}
+    font-size: clamp(12px, 1.2vw, 20px);}
 
 
 
@@ -421,8 +420,8 @@ p.titolo a.nav-link {
 }
 
 /* Media query per dispositivi mobili */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   html, body {
     font-size: 12px;
   }
-}
+} */
