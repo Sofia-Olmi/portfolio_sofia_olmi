@@ -137,8 +137,9 @@ html {
      padding-top: 2vw;
 }
 .sottotitolo-sezione{
-    font: bold 1.5vw Mulish, Helvetica, sans-serif;
+    font: bold, Mulish, Helvetica, sans-serif;
     color: #00806A;
+    font-size: 1.5vw;
      padding-top: 3vw;
 }
 .titolo-sezione{
@@ -419,5 +420,11 @@ p.titolo a.nav-link {
 @media (max-width: 768px) {
   a.nav-link {
     font-size: 12px !important; 
+  }
+}
+
+@media (max-width: 768px) {
+  .sottotitolo-sezione {
+    font-size: 10px !important; 
   }
 }
