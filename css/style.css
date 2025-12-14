@@ -309,6 +309,11 @@ p.titolo a.nav-link {
   border-radius: 0;
   margin-top: 2.2vw;
 }
+.slide-content p {
+  font-size: 1.2vw;
+  line-height: 1.5vw;
+  margin: 0;
+}
 
 
 
@@ -408,24 +413,19 @@ p.titolo a.nav-link {
   html, body {
     font-size: 11px !important; 
   }
-}
 
-@media (max-width: 768px) {
-  .titolo {
+    .titolo {
     font-size: 14px !important; 
     font-weight: bold !important;
     line-height: 14px;
-  }
 }
 
-@media (max-width: 768px) {
   a.nav-link {
     font-size: 12px !important; 
   }
-}
 
-@media (max-width: 768px) {
   .sottotitolo-sezione {
     font-size: 10px !important; 
   }
+
 }
