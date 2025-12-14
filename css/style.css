@@ -423,6 +423,6 @@ p.titolo a.nav-link {
 /* Media query per dispositivi mobili */
 @media (max-width: 768px) {
   html, body {
-    font-size: 12px !important; 
+    font-size: 11px !important; 
   }
 }
