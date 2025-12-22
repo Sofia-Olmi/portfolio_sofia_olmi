@@ -329,8 +329,8 @@ p.titolo a.nav-link {
 .swiper-pagination-bullet {
     background-color: white;
     opacity: 1;
-    width: 12px;
-    height: 12px;
+    width: 12vw;
+    height: 12vw;
 }
 /* Dot attivo (slide corrente) */
 .swiper-pagination-bullet-active {
