@@ -175,7 +175,7 @@ h3.titolo{
     background-color: rgba(0, 151, 126, 15%);
 }
 .bg-transparent{
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.6);
     box-shadow: hsla(0, 0%, 20%, 0.3) 0px 6px 9px -1px;
 }
 
